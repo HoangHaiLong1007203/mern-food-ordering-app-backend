@@ -28,8 +28,6 @@ router.patch(
   MyRestaurantController.updateOrderStatus
 );
 
-<<<<<<< HEAD
-=======
 router.get(
   "/order",
   jwtCheck,
@@ -44,7 +42,6 @@ router.patch(
   MyRestaurantController.updateOrderStatus
 );
 
->>>>>>> c241469 (update backend (lastcheck 1:30pm 4/12))
 router.get("/", jwtCheck, jwtParse, MyRestaurantController.getMyRestaurant);
 
 router.post(

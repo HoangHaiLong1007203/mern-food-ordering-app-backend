@@ -8,7 +8,7 @@
     "stripe": "stripe listen --forward-to localhost:7000/api/order/checkout/webhook",
     "build": "npm install && npx tsc",
     "start": "node dist/index.js"
-  },
+  }, 
   "keywords": [],
   "author": "",
   "license": "ISC",
