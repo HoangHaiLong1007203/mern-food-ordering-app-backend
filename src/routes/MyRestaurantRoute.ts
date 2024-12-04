@@ -14,6 +14,23 @@ const upload = multer({
   },
 });
 
+<<<<<<< HEAD
+=======
+router.get(
+  "/order",
+  jwtCheck,
+  jwtParse,
+  MyRestaurantController.getMyRestaurantOrders
+);
+ 
+router.patch(
+  "/order/:orderId/status",
+  jwtCheck,
+  jwtParse,
+  MyRestaurantController.updateOrderStatus
+);
+
+>>>>>>> c241469 (update backend (lastcheck 1:30pm 4/12))
 router.get("/", jwtCheck, jwtParse, MyRestaurantController.getMyRestaurant);
 
 router.post(

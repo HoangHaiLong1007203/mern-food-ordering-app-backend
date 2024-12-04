@@ -62,3 +62,4 @@ export default {
   createCurrentUser,
   updateCurrentUser,
 };
+ 
