@@ -28,7 +28,7 @@ export const jwtParse = async (
   if (!authorization || !authorization.startsWith("Bearer ")) {
     return res.sendStatus(401);
   }
-
+ 
   // Bearer lshdflshdjkhvjkshdjkvh34h5k3h54jkh
   const token = authorization.split(" ")[1];
 

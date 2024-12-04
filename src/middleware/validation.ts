@@ -23,7 +23,7 @@ export const validateMyUserRequest = [
   body("country").isString().notEmpty().withMessage("Country must be a string"),
   handleValidationErrors,
 ];
-
+ 
 export const validateMyRestaurantRequest = [
   body("restaurantName").notEmpty().withMessage("Restaurant name is required"),
   body("city").notEmpty().withMessage("City is required"),
